@@ -132,22 +132,20 @@ ul {
 
 .qoutes {
     display: flex;
-    background-color: #e5e7eb;
-    height: 500px;
+    background-color: #e5e7eb; 
     flex-direction: column;
-    padding-left: 500px;
-    padding-right: 500px;
+    padding-left: 300px;
+    padding-right: 300px;
     align-items: center;
     justify-content: center;
 }
 
 .qoute-text {
-    display: flex;
     font-size: 36px;
     color: #1F2937;
     font-style: italic;
     font-weight: 200;
-    min-width: 400px;
+    margin-top: 100px;
 }
 
 .qoute-source {
@@ -157,6 +155,7 @@ ul {
     font-size: 24px;
     font-weight: 600;
     margin-top: 10px;
+    margin-bottom: 100px;
 }
 
 .call-to-action {
