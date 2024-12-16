@@ -142,11 +142,12 @@ ul {
 }
 
 .qoute-text {
+    display: flex;
     font-size: 36px;
     color: #1F2937;
     font-style: italic;
     font-weight: 200;
-    width: 600px;
+    min-width: 400px;
 }
 
 .qoute-source {
@@ -155,6 +156,7 @@ ul {
     color: #1F2937;
     font-size: 24px;
     font-weight: 600;
+    margin-top: 10px;
 }
 
 .call-to-action {
